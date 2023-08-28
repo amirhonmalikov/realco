@@ -601,9 +601,13 @@ body{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
     height: 460px;
-    width: 405px;  
+    max-width: 405px; 
+    width: 100%;
 }
-
+.BigBox__Houses-area-item-img{
+    max-width: 405px; 
+    width: 100%;
+}
 .BigBox__Houses-area-item-h3 {
     font-weight: 700;
     font-size: 24px;
